@@ -47,9 +47,9 @@ garanti altına alır.
 ## Katkı Sağlamak
 
 Katkı sağlamak isteyen geliştiriciler için detaylı bilgi
-[CONTRIBUTING.md](docs/contributing.md) dosyasında yer almaktadır.
+[CONTRIBUTING.md](docs/CONTRIBUTING.md) dosyasında yer almaktadır.
 
 ## Yol Haritası
 
 Projenin geliştirme fazlarını
-[ROADMAP.md](docs/roadmap.md) dosyasında bulabilirsiniz.
+[ROADMAP.md](docs/ROADMAP.md) dosyasında bulabilirsiniz.
