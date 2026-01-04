@@ -59,8 +59,8 @@ root/
 ### Kurulum
 
 ```bash
-git clone https://github.com/ORG/REPO.git
-cd REPO
+git clone https://github.com/nesetdemir/nilufer-mahalle-komiteleri-platformu.git
+cd nilufer-mahalle-komiteleri-platformu
 docker-compose up
 ```
 
