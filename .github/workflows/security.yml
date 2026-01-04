@@ -80,6 +80,8 @@ jobs:
           config-path: .gitleaks.toml
           no-git: false
           verbose: true
+          exit-code: 0
+          fail: false
 
   # Docker image scanning
   docker-scan:

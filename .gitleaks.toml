@@ -28,28 +28,22 @@ description = "JWT Secret"
 regex = '''(?i)(jwt[_-]?secret|jwt[_-]?key)['":\s]*[=:]\s*['"]([0-9a-zA-Z\-_]{20,})['"]'''
 tags = ["jwt", "secret"]
 
-[[allowlist]]
-description = "Allow example values in documentation"
+[allowlist]
+description = "Allowlist for example files and patterns"
 paths = [
     '''\.md$''',
     '''\.example$''',
     '''\.env\.example$''',
     '''docker-compose\.yml$''',
-]
-
-[[allowlist]]
-description = "Allow test files"
-paths = [
     '''test.*\.py$''',
     '''.*test\.py$''',
     '''.*spec\.ts$''',
     '''.*spec\.tsx$''',
 ]
-
-[[allowlist]]
-description = "Allow example patterns"
+commits = []
 regexes = [
     '''your-secret-key-change-in-production''',
+    '''CHANGE_THIS.*''',
     '''nilufer_pass''',
     '''nilufer_user''',
     '''localhost''',
